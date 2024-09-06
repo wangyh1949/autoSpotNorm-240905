@@ -9,8 +9,13 @@ tracksFinal variable. It will then calcuate quantities for analysis (e.g.
 MSD, Diff, alpha). Eventually, these quantities are converted into matrices
 (arrays) which are convenient for future plotting
 
+~~~ normalized position of spots in cells: [xNorm, lNorm] ~~~
+[[[[ the notation is slightly different from the paper, l stands for the long
+axis of the cell ]]]]
+
 10/24/2023: version for SPT experiments, only saving combined Matrix file
-and tf_Variables files, also save combined tf 
+and tf_Variables files, also save combined tf, not saving the tf after
+diffusion analysis
 
 ======Input=======
     BF00xm.mat (output mesh file of Oufti)

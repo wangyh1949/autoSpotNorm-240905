@@ -4,9 +4,10 @@ Author: Yu-Huan Wang (Kim Lab at UIUC) - yuhuanw2@illinois.edu
 Last edited date: 8/9/2023
 
 Description: spotNorm_yh.m is a script that combine oufti mesh files &
-uTrack tracking outputs and align them together. The fluorescent signals
-will be autoshifted based on the cell outline in case the sample drifted
-during the movie
+uTrack tracking outputs and align them together. It will then calculated
+the normalized position of spots inside cells as [xNorm, lNorm]
+
+~~~ We denote the short and long axes as x & l, respectively ~~~
 
 1) load oufti mesh & uTrack output data
 2) assign each track to the corresponding cell
